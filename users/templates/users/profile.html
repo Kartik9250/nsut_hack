@@ -1,0 +1,14 @@
+{% extends "Site/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+      <div class="media">
+        <img class="rounded-circle account-img" src="https://cdn-icons.flaticon.com/png/128/3006/premium/3006876.png?token=exp=1647008072~hmac=c0e85bcef950a1365b898a05477ec659">
+        <div class="media-body">
+          <h2 class="account-heading">{{ user.username }}</h2>
+          <p class="text-secondary">{{ user.email }}</p>
+        </div>
+      </div>
+      <!-- FORM HERE -->
+    </div>
+{% endblock content %}

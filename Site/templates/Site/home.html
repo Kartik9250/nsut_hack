@@ -1,0 +1,9 @@
+{% extends "Site/base.html" %}
+{% block content %}
+{% if user.is_authenticated %}
+    
+{% else %}
+    <text color="yellow"><h1>Welcome to our agora site</h1></text>
+    <p>Agora site content</p>
+{% endif %}
+{% endblock content %}

@@ -1,0 +1,8 @@
+certifi
+chardet
+Django
+django-crispy-forms
+idna
+pytz
+requests
+urllib3
